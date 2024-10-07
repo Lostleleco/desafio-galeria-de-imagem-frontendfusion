@@ -1,16 +1,11 @@
+import Imgs from './imgs';
+import './index.css';
 
-import './App.css'
-
-function App() {
-
+export default function App() {
   return (
+
     <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de Galeria de Imagens - Processo Seletivo Frontend Fusion</p>
-      </main>
+      <Imgs />
     </>
   );
 }
-
-export default App
